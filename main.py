@@ -7,4 +7,5 @@ def img2str(filename):
     image=Image.open(filename)
     string1=pytesseract.image_to_string(image,lang='eng')
     print(string1)
+    
 img2str(filename1)
